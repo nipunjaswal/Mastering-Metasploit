@@ -5,7 +5,7 @@ class Metasploit3 < Msf::Auxiliary
 	def initialize
 		super(
 			'Name'        => 'Apex FTP Detector',
-			'Description' => '1.0',
+			'Description' => '1.1',
 			'Author'      => 'Nipun Jaswal',
 			'License'     => MSF_LICENSE
 		)
