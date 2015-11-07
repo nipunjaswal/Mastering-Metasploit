@@ -5,8 +5,8 @@ class Metasploit3 < Msf::Auxiliary
 	include Msf::Auxiliary::Scanner
 	def initialize
 		super(
-			'Name'        => 'DVWA SQL Injection to Command Execution',
-			'Description' => 'Exploits SQL Injection Bug to Upload Stager and Execute Arbitrary Commands on the Target',
+			'Name'        => 'DVWA SQL Injection Pawnage',
+			'Description' => 'Exploits SQL Injection Bug to Harvest Database',
 			'Author'      => 'Nipun_Jaswal',
 			'License'     => MSF_LICENSE)
 			register_options(
