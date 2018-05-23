@@ -1,5 +1,11 @@
 This Repository contains Modules covered in Mastering Metasploit Book:
 
+#To load all the modules automatically to metasploit:
+
+./msfrun.sh
+
+
+#Manual Method
 #To Load all the core metasploit modules(exploit, auxiliary, post):
 
 msf > loadpath /root/Desktop/Mastering-Metasploit/modules/
